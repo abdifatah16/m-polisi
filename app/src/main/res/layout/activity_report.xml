@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Report"
+    android:background="#003399">
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Report an Incident"
+        android:textColor="#ffffff"
+        android:textSize="26dp"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etNamesReport"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:text="Full Name:"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/etNamesReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="Your Names"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginTop="152dp"
+        android:text="Date of Event :"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView18"
+        android:layout_alignStart="@+id/etNamesReport"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginTop="206dp"
+        android:text="What Happened:"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/etEvents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView19"
+        android:layout_toEndOf="@+id/textView19"
+        android:ems="10"
+        android:hint="The events that took place"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView21"
+        android:layout_centerVertical="true"
+        android:text="Location :"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_alignStart="@+id/etNamesReport"
+        android:ems="10"
+        android:hint="E.g. Nairobi, Westlands"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="187dp"
+        android:layout_toStartOf="@+id/textView16"
+        android:text="Witnesses :"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/etWitness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView21"
+        android:layout_alignStart="@+id/etNamesReport"
+        android:ems="10"
+        android:hint="Mr. John Doe"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
+        android:text="Submit Report"
+        android:textColor="#f90000"/>
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnReport"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-42dp"
+        android:text="Warning: Submission of falsified statements is an offense!"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginBottom="130dp"
+        android:text="Upload Image :"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="114dp"
+        android:layout_toEndOf="@+id/textView19"
+        android:text="Select Image" />
+</RelativeLayout>

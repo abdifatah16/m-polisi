@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandingPage"
+    android:background="#003399"
+    >
+
+    <ImageView
+        android:id="@+id/imReport"
+        android:layout_width="109dp"
+        android:layout_height="109dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/irep"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imReport"
+        android:layout_marginTop="156dp"
+        android:text="Write a Report"
+        android:textColor="#ffffff"
+        />
+
+    <ImageView
+        android:id="@+id/imRights"
+        android:layout_width="109dp"
+        android:layout_height="109dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imReport"
+        android:layout_marginEnd="70dp"
+        app:srcCompat="@drawable/rights" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imRights"
+        android:layout_alignTop="@+id/textView4"
+        android:text="Know Your Rights" />
+
+    <ImageView
+        android:id="@+id/imDocs"
+        android:layout_width="109dp"
+        android:layout_height="109dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imReport"
+        android:layout_marginTop="186dp"
+        app:srcCompat="@drawable/docs" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imReport"
+        android:layout_marginBottom="186dp"
+        android:text="Police Documents"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imFb"
+        android:layout_width="109dp"
+        android:layout_height="109dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imReport"
+        android:layout_marginBottom="60dp"
+        app:srcCompat="@drawable/fb" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imReport"
+        android:layout_marginBottom="34dp"
+        android:text="Feedback"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imMaps"
+        android:layout_width="109dp"
+        android:layout_height="109dp"
+        android:layout_alignStart="@+id/imRights"
+        android:layout_alignTop="@+id/imDocs"
+        app:srcCompat="@drawable/map" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_marginEnd="127dp"
+        android:text="My Location" />
+
+    <ImageView
+        android:id="@+id/imSettings"
+        android:layout_width="109dp"
+        android:layout_height="109dp"
+        android:layout_alignStart="@+id/imRights"
+        android:layout_alignTop="@+id/imFb"
+        app:srcCompat="@drawable/set" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imRights"
+        android:layout_alignTop="@+id/textView13"
+        android:text="Settings" />
+</RelativeLayout>

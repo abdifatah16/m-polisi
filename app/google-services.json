@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "435046414665",
+    "firebase_url": "https://mpolisi-410d6.firebaseio.com",
+    "project_id": "mpolisi-410d6",
+    "storage_bucket": "mpolisi-410d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435046414665:android:6fd14cb2e084d698",
+        "android_client_info": {
+          "package_name": "com.abdifatahm.m_polisi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435046414665-okb079k9lhf81ervkt7ukspg39igtbbr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdifatahm.m_polisi",
+            "certificate_hash": "fa541c5cf7d3d59b788619589cf563011aa5dbef"
+          }
+        },
+        {
+          "client_id": "435046414665-imjsnadvuf01rsbrtg3kbudcspueck20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnXrU3UU45A5iwMSh6K2re6riZSEkOGdY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435046414665-imjsnadvuf01rsbrtg3kbudcspueck20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
